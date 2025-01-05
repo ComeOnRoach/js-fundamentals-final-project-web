@@ -8,7 +8,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-position: top;
-    background-image: url(../../img/index/index.header-hero-2.png);
+    background-image: url(../../img/index/index.header-hero-v3.png);
+    z-index: -20;
 
     .header-hero__content{
         width: 100%;

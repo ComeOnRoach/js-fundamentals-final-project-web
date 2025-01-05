@@ -12,7 +12,12 @@
 }
 
 :root {
-  --text-color: #fff;
+  --color-text-white: aliceblue;
+  --color-text-black: #1c1c1b;
+  --color-button-brite: #fbb01f;
+  --color-button-mouse-on: #1c1c1b;
+
+  
 }
 
 img {
@@ -26,13 +31,31 @@ img {
   padding: 0px 24px;
 }
 
+.navbar__logo{
+  width: 135px;
+  height: 60px;
+  object-fit: cover;
+
+}
+
+.navbar__menu-social_media_item{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+
+}
+
 h1{
   font-family: Luckiest Guy;
-  color:aliceblue;
+  color:var(--color-text-white);
   font-size: 5rem;
-  letter-spacing: .7rem;
+  letter-spacing: .6rem;
 }
 
 p{
-  color:aliceblue;
+  color:var(--color-text-white);
+}
+
+li{
+  list-style: none;
 }

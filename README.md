@@ -1,4 +1,5 @@
 https://jb2qn.weblium.site
+https://camping-club.weblium.site/
 
 # js-fundamentals-final-project-web
 

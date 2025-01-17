@@ -16,8 +16,9 @@
   --color-text-black: #1c1c1b;
   --color-button-brite: #fbb01f;
   --color-button-mouse-on: #1c1c1b;
-
-  
+  --font-header-h1: Luckiest Guy;
+  --font-h2: Passion One;
+  --font-span: Montserrat;
 }
 
 img {
@@ -46,16 +47,47 @@ img {
 }
 
 h1{
-  font-family: Luckiest Guy;
-  color:var(--color-text-white);
+  font-family: var(--font-header-h1);
+  color: var(--color-text-white);
   font-size: 5rem;
   letter-spacing: .6rem;
+}
+
+h2.whiteColor{
+  font-family: var(Passion One);
+  color:var(--color-text-white);
+  font-size: 3rem;
+  letter-spacing: .6rem;
+}
+
+h2.blackColor{
+  font-family: var(Passion One);
+  color:var( --color-text-black);
+  font-size: 3rem;
+  font-weight: bold;
+  /* letter-spacing: .6rem; */
 }
 
 p{
   color:var(--color-text-white);
 }
 
+span{
+  font-family: var(--font-span);
+}
+
 li{
   list-style: none;
+}
+
+@media (min-width: 992px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding: 0 15px;
+  }
 }

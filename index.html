@@ -12,35 +12,20 @@
     />
     <link rel="stylesheet" href="css/index.css" />
     <script
-    src="https://unpkg.com/htmx.org@1.9.10"
-    integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
-    crossorigin="anonymous"
-  ></script>
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header class="header">
-      <section>
-        <div
-          data-hx-trigger="load"
-          data-hx-swap="outerHTML"
-          data-hx-get="index.navbar.partial.html"
-        ></div>
-      </section>
-      <section class="header__header">
-        <div>
-          <div
-            data-hx-trigger="load"
-            data-hx-swap="outerHTML"
-            data-hx-get="global.navbar.partial.html"
-          ></div>
-          <div
-            data-hx-trigger="load"
-            data-hx-swap="outerHTML"
-            data-hx-get="index.header.hero.partial.html"
-          ></div>
-        </div>
-      </section>
-    </header>
+      <div class="header__background">
+          <div class="header__container container">
+              <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.navbar.partial.html"></nav>
+              <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header.hero.partial.html"></section>
+          </div>
+      </div>
+  </header>
     <!-- Camping is Our Philosophy -->
     <section
       data-hx-trigger="load"
@@ -103,7 +88,7 @@
         data-hx-get="global.footer.partial.html"
       ></section>
     </footer>
-    <script type="module" src="./js/camping-philosophy.js"></script>
     <script type="module" src="./js/index.js"></script>
+    <script type="module" src="./js/camping-philosophy.js"></script>
   </body>
 </html>

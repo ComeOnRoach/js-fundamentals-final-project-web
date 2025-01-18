@@ -1,4 +1,6 @@
 @import url(global.css);
-@import url(index.navbar.css);
+@import url(controls.css);
+@import url(index.header-nav.css);
 @import url(index.header.hero.css);
 @import url(camping-philosophy.css);
+@import url(index.camping-tours.css);

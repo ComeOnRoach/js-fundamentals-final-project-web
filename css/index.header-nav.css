@@ -8,10 +8,11 @@
 }
 
 .header__background {
+    position: relative;
     background-image: url(../img/index/index.header-hero-v3.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50.7% 0%;
+    background-position: 50% 100%;
 }
 
 .header__nav-logo img {
@@ -158,7 +159,7 @@
 
 @media (min-width: 1110px) {
     .header__background {
-        background-position: 51% 50%;
+        background-position: 50% 100%;
     }
 
     .header__nav {

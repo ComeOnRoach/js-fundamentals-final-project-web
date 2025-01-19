@@ -1,17 +1,3 @@
-/* .header_hero {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    text-align: center;
-    padding-top: 25vh;
-    padding-bottom: 40vh;
-    .header_hero__content{
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-
-    }
-} */
-
 .header__intro {
     display: block;
     flex-basis: 100%;
@@ -36,17 +22,13 @@
             height: 50px;
             border-radius: 30px;
             border: 0;
-
-
         }
         .header_hero__buttons--left {
             background-color: var(--color-button-brite);
             color: white;
-
         }
 
         .header_hero__buttons--left:hover {
-
             background-color: white;
             color: #000;
 
@@ -57,17 +39,12 @@
             color: white;
             border: 1px solid;
             border-color: var(--color-button-brite);
-            
         }
 
         .header_hero__buttons--right:hover{
             background-color: var(--color-button-brite);
-
         }
-
-
     }
-
 }
 
 .header__intro-title {

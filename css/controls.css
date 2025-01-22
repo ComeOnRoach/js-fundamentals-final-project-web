@@ -1,4 +1,4 @@
-.btn-primary {
+/* .btn-primary {
     font-size: 12px;
     line-height: 1.1;
     letter-spacing: 0.4px;
@@ -45,7 +45,7 @@
     background: var(--btn-primary-hover);
 }
 
-@media (min-width: 1110px) {
+/* @media (min-width: 1110px) {
     .header__background {
         background-position: 51% 50%;
     }
@@ -103,4 +103,4 @@
     .header__nav-btn {
         margin-left: 0;
     }
-}
+} */ */

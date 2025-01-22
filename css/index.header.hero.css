@@ -1,3 +1,13 @@
+.header {
+  position: absolute;
+  top: -20px;
+  width: 100%;
+  background-image: url(../img/index/index.header-hero-v3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
+
 .header__intro {
     display: block;
     flex-basis: 100%;
@@ -10,6 +20,7 @@
 .header__intro-content {
     display: flex;
     flex-direction: column;
+    padding-top: 250px;
     .header_hero__buttons {
         display: flex;
         gap: 15px;
